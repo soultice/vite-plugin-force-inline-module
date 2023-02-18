@@ -1,0 +1,22 @@
+{
+  "name": "vite-plugin-force-inline-module",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soultice/force-inline-module.git"
+  },
+  "keywords": [
+    "vite",
+    "inline",
+    "module"
+  ],
+  "author": "soultice@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soultice/vite-plugin-force-inline-module/issues"
+  },
+  "homepage": "https://github.com/soultice/vite-plugin-force-inline-module#readme",
+  "workspaces": [
+    "packages/plugin"
+  ]
+}

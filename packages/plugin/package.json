@@ -1,0 +1,45 @@
+{
+  "name": "vite-plugin-force-inline-module",
+  "version": "0.0.1",
+  "description": "A vite plugin to inline modules in the build output",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "tsc": "tsc"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soultice/vite-plugin-force-inline-module.git"
+  },
+  "keywords": [
+    "vite",
+    "inline",
+    "module"
+  ],
+  "author": "soultice@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soultice/vite-plugin-force-inline-module/issues"
+  },
+  "homepage": "https://github.com/soultice/vite-plugin-force-inline-module#readme",
+  "devDependencies": {
+    "@types/uuid": "^9.0.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "rollup": "^2.77.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
